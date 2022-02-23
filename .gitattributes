@@ -1,0 +1,7 @@
+# export-ignore from .gitignore
+vendor/                 export-ignore
+
+composer.lock           export-ignore
+
+# export-ignore development files
+tests/                  export-ignore
