@@ -1,4 +1,4 @@
 #
-vendor/
-
-composer.lock
+/tools/
+/vendor/
+/composer.lock
