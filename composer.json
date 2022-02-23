@@ -1,0 +1,23 @@
+{
+    "name": "ircsasw/api-nemo",
+    "description": "Nemo web service REST API consumer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ircsasw\\ApiNemo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ircsasw\\ApiNemo\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo Ramos",
+            "email": "ircsasw@gmail.com"
+        }
+    ],
+    "require": {}
+}
