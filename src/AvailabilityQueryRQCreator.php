@@ -4,9 +4,9 @@ namespace Ircsasw\ApiNemo;
 
 use Ircsasw\ApiNemo\Elements\AvailabilityQueryRQ\AvailabilityQueryRQ;
 
-class QueryCreator
+class AvailabilityQueryRQCreator
 {
-    use QueryCreatorTrait;
+    use AvailabilityQueryRQCreatorTrait;
 
     /** @var AvailabilityQueryRQ */
     private $availabilityQueryRQ;

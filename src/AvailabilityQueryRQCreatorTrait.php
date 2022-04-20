@@ -4,7 +4,7 @@ namespace Ircsasw\ApiNemo;
 
 use Ircsasw\ApiNemo\Nodes\XmlNodeUtils;
 
-trait QueryCreatorTrait
+trait AvailabilityQueryRQCreatorTrait
 {
     public function asXml(): string
     {
