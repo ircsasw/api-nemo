@@ -12,4 +12,28 @@ final class AvailabilityQueryRQ extends AbstractElement
     {
         return 'AvailabilityQueryRQ';
     }
+
+    public function getGeneralParameters(): GeneralParameters
+    {
+        return $this->helperGetOrAdd(new GeneralParameters());
+    }
+
+    public function addGeneralParameters(array $attributes = []): GeneralParameters
+    {
+        $generalParameters = $this->getGeneralParameters();
+        $generalParameters->addAttributes($attributes);
+        return $generalParameters;
+    }
+
+    public function getTrips(): Trips
+    {
+        return $this->helperGetOrAdd(new Trips());
+    }
+
+    public function addTrips(array $attributes = []): Trips
+    {
+        $trips = $this->getTrips();
+        $trips->addAttributes($attributes);
+        return $trips;
+    }
 }
