@@ -15,4 +15,9 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
     {
         return @file_get_contents($path) ?: '';
     }
+
+    public static function utilAsset(string $file): string
+    {
+        return __DIR__ . '/assets/' . $file;
+    }
 }
